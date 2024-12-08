@@ -107,4 +107,17 @@ public class Product {
     public int hashCode() {
         return 0;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", price=" + price +
+                ", imgUrl='" + imgUrl + '\'' +
+                ", categories=" + categories +
+                ", items=" + items +
+                '}';
+    }
 }
